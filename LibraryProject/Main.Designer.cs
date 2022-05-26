@@ -137,7 +137,7 @@
             // LibraryBtn
             // 
             this.LibraryBtn.Font = new System.Drawing.Font("Verdana", 12F);
-            this.LibraryBtn.Location = new System.Drawing.Point(380, 453);
+            this.LibraryBtn.Location = new System.Drawing.Point(334, 453);
             this.LibraryBtn.Name = "LibraryBtn";
             this.LibraryBtn.Size = new System.Drawing.Size(264, 111);
             this.LibraryBtn.TabIndex = 1;
@@ -148,7 +148,7 @@
             // Favourite
             // 
             this.Favourite.Font = new System.Drawing.Font("Verdana", 12F);
-            this.Favourite.Location = new System.Drawing.Point(380, 316);
+            this.Favourite.Location = new System.Drawing.Point(334, 316);
             this.Favourite.Name = "Favourite";
             this.Favourite.Size = new System.Drawing.Size(264, 111);
             this.Favourite.TabIndex = 4;
@@ -210,6 +210,7 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Library";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
