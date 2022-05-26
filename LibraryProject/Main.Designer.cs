@@ -70,6 +70,7 @@
             this.label10.Size = new System.Drawing.Size(45, 18);
             this.label10.TabIndex = 2;
             this.label10.Text = "User";
+            this.label10.Click += new System.EventHandler(this.UserPanel_Click);
             // 
             // WTRLabelMain
             // 

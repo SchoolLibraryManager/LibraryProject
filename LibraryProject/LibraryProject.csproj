@@ -73,6 +73,12 @@
     <Compile Include="TimeSpentReading.Designer.cs">
       <DependentUpon>TimeSpentReading.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPanel.Designer.cs">
+      <DependentUpon>UserPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="WantToRead.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TimeSpentReading.resx">
       <DependentUpon>TimeSpentReading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPanel.resx">
+      <DependentUpon>UserPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WantToRead.resx">
       <DependentUpon>WantToRead.cs</DependentUpon>

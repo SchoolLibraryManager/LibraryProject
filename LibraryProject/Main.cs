@@ -93,5 +93,12 @@ namespace LibraryProject
         {
 
         }
+
+        private void UserPanel_Click(object sender, EventArgs e)
+        {
+            UserPanel f = new UserPanel();
+            f.Show();
+            this.Hide();
+        }
     }
 }
