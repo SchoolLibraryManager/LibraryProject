@@ -28,23 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.CloseButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.CloseButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.BackColor = System.Drawing.Color.White;
-            this.CloseButton.BackgroundImage = global::LibraryProject.Properties.Resources.CloseProgramm;
-            this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.ForeColor = System.Drawing.Color.Transparent;
-            this.CloseButton.Location = new System.Drawing.Point(1054, 0);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(35, 35);
-            this.CloseButton.TabIndex = 4;
-            this.CloseButton.UseVisualStyleBackColor = false;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // button1
             // 
@@ -59,6 +45,20 @@
             this.button1.TabIndex = 5;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.GoBack_Click);
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.BackColor = System.Drawing.Color.White;
+            this.CloseButton.BackgroundImage = global::LibraryProject.Properties.Resources.CloseProgramm;
+            this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CloseButton.ForeColor = System.Drawing.Color.Transparent;
+            this.CloseButton.Location = new System.Drawing.Point(1054, 0);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(35, 35);
+            this.CloseButton.TabIndex = 4;
+            this.CloseButton.UseVisualStyleBackColor = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // UserPanel
             // 

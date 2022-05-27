@@ -42,6 +42,7 @@
             this.TSR = new System.Windows.Forms.Button();
             this.WTR = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -193,12 +194,21 @@
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1087, 621);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 6;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1089, 634);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.WTR);
             this.Controls.Add(this.TSR);
             this.Controls.Add(this.Favourite);
@@ -210,13 +220,14 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Library";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -235,6 +246,7 @@
         private System.Windows.Forms.Button Favourite;
         private System.Windows.Forms.Button TSR;
         private System.Windows.Forms.Button WTR;
+        private System.Windows.Forms.Label label1;
     }
 }
 

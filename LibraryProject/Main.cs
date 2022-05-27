@@ -91,7 +91,7 @@ namespace LibraryProject
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            label1.Select();
         }
 
         private void UserPanel_Click(object sender, EventArgs e)
