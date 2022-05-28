@@ -47,12 +47,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookInfo.Designer.cs">
+      <DependentUpon>BookInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Favourite.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Favourite.Designer.cs">
       <DependentUpon>Favourite.cs</DependentUpon>
     </Compile>
+    <Compile Include="Globals.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +92,9 @@
     <Compile Include="WantToRead.Designer.cs">
       <DependentUpon>WantToRead.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookInfo.resx">
+      <DependentUpon>BookInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Favourite.resx">
       <DependentUpon>Favourite.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +150,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GoRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AndreshkoBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BorbaBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENZBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KradecaBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VLRBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaiGBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SindromBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SvetilnikBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoevBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VapcarovBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StulbataBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibeBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QvorBook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpiBook.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

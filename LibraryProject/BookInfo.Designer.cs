@@ -1,6 +1,6 @@
 ﻿namespace LibraryProject
 {
-    partial class WantToRead
+    partial class BookInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WantToRead));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookInfo));
             this.CloseButton = new System.Windows.Forms.Button();
-            this.GoBack = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CloseButton
@@ -40,46 +41,60 @@
             this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CloseButton.ForeColor = System.Drawing.Color.Transparent;
-            this.CloseButton.Location = new System.Drawing.Point(1055, 0);
+            this.CloseButton.Location = new System.Drawing.Point(1053, 0);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(35, 35);
-            this.CloseButton.TabIndex = 5;
+            this.CloseButton.TabIndex = 4;
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
-            // GoBack
+            // button1
             // 
-            this.GoBack.BackColor = System.Drawing.Color.White;
-            this.GoBack.BackgroundImage = global::LibraryProject.Properties.Resources.GoBack;
-            this.GoBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GoBack.ForeColor = System.Drawing.Color.Transparent;
-            this.GoBack.Location = new System.Drawing.Point(-1, 0);
-            this.GoBack.Name = "GoBack";
-            this.GoBack.Size = new System.Drawing.Size(35, 35);
-            this.GoBack.TabIndex = 6;
-            this.GoBack.UseVisualStyleBackColor = false;
-            this.GoBack.Click += new System.EventHandler(this.GoBack_Click);
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::LibraryProject.Properties.Resources.GoBack;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(35, 35);
+            this.button1.TabIndex = 5;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.GoBack_Click);
             // 
-            // WantToRead
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(152, 242);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(254, 78);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
+            // 
+            // BookInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1089, 634);
-            this.Controls.Add(this.GoBack);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "WantToRead";
+            this.Name = "BookInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WantToRead";
+            this.Text = "BookInfo";
+            this.Load += new System.EventHandler(this.BookInfo_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button CloseButton;
-        private System.Windows.Forms.Button GoBack;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
