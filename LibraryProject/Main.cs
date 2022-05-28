@@ -92,6 +92,7 @@ namespace LibraryProject
         private void Main_Load(object sender, EventArgs e)
         {
             label1.Select();
+            //Global.PageNumber = 0;
         }
 
         private void UserPanel_Click(object sender, EventArgs e)
