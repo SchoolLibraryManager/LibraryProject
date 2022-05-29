@@ -42,8 +42,31 @@ namespace LibraryProject
         private void BookInfo_Load(object sender, EventArgs e)
         {
             GiveInfo();
+            int bookNumber = Global.BookInfo;
+            for (int i = 0; i < Global.FavouriteBooks.Count(); i++)
+            {
+                if (Global.FavouriteBooks.Count(n => n == bookNumber) >= 1)
+                {
+                    FavouriteBtn.Enabled = false;
+                    RemoveMeBtn.BringToFront();
+                }
+            }
         }
 
+        private void FavouriteBtn_Click(object sender, EventArgs e)
+        {
+            Global.FavouriteBooks.Add(Global.BookInfo);
+            FavouriteBtn.Enabled = false;
+            RemoveMeBtn.BringToFront();
+        }
+
+        private void RemoveMeBtn_Click(object sender, EventArgs e)
+        {
+            Global.FavouriteBooks.Remove(Global.BookInfo);
+            RemoveMeBtn.Enabled = false;
+            FavouriteBtn.BringToFront();
+            FavouriteBtn.Enabled = true;
+        }
 
         public void GiveInfo()
         {
