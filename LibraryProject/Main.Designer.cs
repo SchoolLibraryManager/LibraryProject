@@ -71,7 +71,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MediumPurple;
+            this.panel1.BackColor = System.Drawing.Color.Tan;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pictureBox6);
@@ -171,7 +171,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.MediumPurple;
+            this.panel3.BackColor = System.Drawing.Color.Tan;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(417, 132);
@@ -194,7 +194,7 @@
             // 
             // LibraryBtn
             // 
-            this.LibraryBtn.BackColor = System.Drawing.Color.MediumPurple;
+            this.LibraryBtn.BackColor = System.Drawing.Color.Tan;
             this.LibraryBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LibraryBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.LibraryBtn.Location = new System.Drawing.Point(1259, 715);
@@ -208,7 +208,7 @@
             // 
             // Favourite
             // 
-            this.Favourite.BackColor = System.Drawing.Color.MediumPurple;
+            this.Favourite.BackColor = System.Drawing.Color.Tan;
             this.Favourite.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Favourite.ForeColor = System.Drawing.SystemColors.Control;
             this.Favourite.Location = new System.Drawing.Point(417, 360);
@@ -222,7 +222,7 @@
             // 
             // TSR
             // 
-            this.TSR.BackColor = System.Drawing.Color.MediumPurple;
+            this.TSR.BackColor = System.Drawing.Color.Tan;
             this.TSR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TSR.ForeColor = System.Drawing.SystemColors.Control;
             this.TSR.Location = new System.Drawing.Point(689, 715);
@@ -236,7 +236,7 @@
             // 
             // WTR
             // 
-            this.WTR.BackColor = System.Drawing.Color.MediumPurple;
+            this.WTR.BackColor = System.Drawing.Color.Tan;
             this.WTR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WTR.ForeColor = System.Drawing.SystemColors.Control;
             this.WTR.Location = new System.Drawing.Point(984, 360);
@@ -388,7 +388,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1575, 861);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
