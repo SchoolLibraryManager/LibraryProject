@@ -32,6 +32,8 @@
             this.CloseButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.FavouriteBtn = new System.Windows.Forms.Button();
+            this.RemoveMeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CloseButton
@@ -72,14 +74,38 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "label1";
             // 
+            // FavouriteBtn
+            // 
+            this.FavouriteBtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FavouriteBtn.Location = new System.Drawing.Point(840, 559);
+            this.FavouriteBtn.Name = "FavouriteBtn";
+            this.FavouriteBtn.Size = new System.Drawing.Size(237, 63);
+            this.FavouriteBtn.TabIndex = 7;
+            this.FavouriteBtn.Text = "FavouriteMe";
+            this.FavouriteBtn.UseVisualStyleBackColor = true;
+            this.FavouriteBtn.Click += new System.EventHandler(this.FavouriteBtn_Click);
+            // 
+            // RemoveMeBtn
+            // 
+            this.RemoveMeBtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveMeBtn.Location = new System.Drawing.Point(840, 559);
+            this.RemoveMeBtn.Name = "RemoveMeBtn";
+            this.RemoveMeBtn.Size = new System.Drawing.Size(237, 63);
+            this.RemoveMeBtn.TabIndex = 8;
+            this.RemoveMeBtn.Text = "RemoveMe";
+            this.RemoveMeBtn.UseVisualStyleBackColor = true;
+            this.RemoveMeBtn.Click += new System.EventHandler(this.RemoveMeBtn_Click);
+            // 
             // BookInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1089, 634);
+            this.Controls.Add(this.FavouriteBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.RemoveMeBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BookInfo";
@@ -96,5 +122,7 @@
         private System.Windows.Forms.Button CloseButton;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button FavouriteBtn;
+        private System.Windows.Forms.Button RemoveMeBtn;
     }
 }
