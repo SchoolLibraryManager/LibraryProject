@@ -183,24 +183,24 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Sitka Small", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Font = new System.Drawing.Font("Sitka Small", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(390, 35);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(312, 88);
+            this.label3.Size = new System.Drawing.Size(322, 88);
             this.label3.TabIndex = 1;
             this.label3.Text = "Welcome";
             // 
             // LibraryBtn
             // 
             this.LibraryBtn.BackColor = System.Drawing.Color.Tan;
-            this.LibraryBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LibraryBtn.ForeColor = System.Drawing.SystemColors.Control;
+            this.LibraryBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LibraryBtn.ForeColor = System.Drawing.Color.Linen;
             this.LibraryBtn.Location = new System.Drawing.Point(1259, 715);
             this.LibraryBtn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.LibraryBtn.Name = "LibraryBtn";
-            this.LibraryBtn.Size = new System.Drawing.Size(217, 70);
+            this.LibraryBtn.Size = new System.Drawing.Size(217, 51);
             this.LibraryBtn.TabIndex = 1;
             this.LibraryBtn.Text = "Library";
             this.LibraryBtn.UseVisualStyleBackColor = false;
@@ -209,12 +209,12 @@
             // Favourite
             // 
             this.Favourite.BackColor = System.Drawing.Color.Tan;
-            this.Favourite.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Favourite.ForeColor = System.Drawing.SystemColors.Control;
-            this.Favourite.Location = new System.Drawing.Point(417, 360);
+            this.Favourite.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Favourite.ForeColor = System.Drawing.Color.Linen;
+            this.Favourite.Location = new System.Drawing.Point(417, 379);
             this.Favourite.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Favourite.Name = "Favourite";
-            this.Favourite.Size = new System.Drawing.Size(217, 70);
+            this.Favourite.Size = new System.Drawing.Size(217, 51);
             this.Favourite.TabIndex = 4;
             this.Favourite.Text = "Favourite books";
             this.Favourite.UseVisualStyleBackColor = false;
@@ -223,12 +223,13 @@
             // TSR
             // 
             this.TSR.BackColor = System.Drawing.Color.Tan;
-            this.TSR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TSR.ForeColor = System.Drawing.SystemColors.Control;
-            this.TSR.Location = new System.Drawing.Point(689, 715);
+            this.TSR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TSR.ForeColor = System.Drawing.Color.Linen;
+            this.TSR.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.TSR.Location = new System.Drawing.Point(698, 715);
             this.TSR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.TSR.Name = "TSR";
-            this.TSR.Size = new System.Drawing.Size(217, 70);
+            this.TSR.Size = new System.Drawing.Size(217, 51);
             this.TSR.TabIndex = 5;
             this.TSR.Text = "Time spent reading";
             this.TSR.UseVisualStyleBackColor = false;
@@ -237,12 +238,12 @@
             // WTR
             // 
             this.WTR.BackColor = System.Drawing.Color.Tan;
-            this.WTR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WTR.ForeColor = System.Drawing.SystemColors.Control;
-            this.WTR.Location = new System.Drawing.Point(984, 360);
+            this.WTR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WTR.ForeColor = System.Drawing.Color.Linen;
+            this.WTR.Location = new System.Drawing.Point(984, 379);
             this.WTR.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.WTR.Name = "WTR";
-            this.WTR.Size = new System.Drawing.Size(217, 70);
+            this.WTR.Size = new System.Drawing.Size(217, 51);
             this.WTR.TabIndex = 2;
             this.WTR.Text = "Want to read";
             this.WTR.UseVisualStyleBackColor = false;
@@ -272,7 +273,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::LibraryProject.Properties.Resources.pic2;
-            this.pictureBox10.Location = new System.Drawing.Point(1259, 416);
+            this.pictureBox10.Location = new System.Drawing.Point(698, 425);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(217, 272);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -282,7 +283,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::LibraryProject.Properties.Resources.pic1;
-            this.pictureBox9.Location = new System.Drawing.Point(984, 451);
+            this.pictureBox9.Location = new System.Drawing.Point(1259, 417);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(217, 280);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -302,7 +303,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::LibraryProject.Properties.Resources.pic3;
-            this.pictureBox7.Location = new System.Drawing.Point(689, 398);
+            this.pictureBox7.Location = new System.Drawing.Point(984, 451);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(217, 290);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -391,9 +392,9 @@
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(1575, 861);
             this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.WTR);
             this.Controls.Add(this.TSR);
