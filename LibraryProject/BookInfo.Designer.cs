@@ -54,7 +54,7 @@
             this.FavouriteBtn.BackColor = System.Drawing.Color.OldLace;
             this.FavouriteBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FavouriteBtn.Location = new System.Drawing.Point(5, 751);
-            this.FavouriteBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FavouriteBtn.Margin = new System.Windows.Forms.Padding(4);
             this.FavouriteBtn.Name = "FavouriteBtn";
             this.FavouriteBtn.Size = new System.Drawing.Size(184, 67);
             this.FavouriteBtn.TabIndex = 7;
@@ -67,7 +67,7 @@
             this.RemoveMeBtn.BackColor = System.Drawing.Color.OldLace;
             this.RemoveMeBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RemoveMeBtn.Location = new System.Drawing.Point(5, 751);
-            this.RemoveMeBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RemoveMeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.RemoveMeBtn.Name = "RemoveMeBtn";
             this.RemoveMeBtn.Size = new System.Drawing.Size(185, 67);
             this.RemoveMeBtn.TabIndex = 8;
@@ -91,7 +91,7 @@
             this.label1.Font = new System.Drawing.Font("Sitka Small", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(220, 601);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 50);
+            this.label1.Size = new System.Drawing.Size(245, 49);
             this.label1.TabIndex = 10;
             this.label1.Text = "Book\'s Name";
             // 
@@ -120,7 +120,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Sitka Small", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(746, 346);
+            this.label4.Location = new System.Drawing.Point(732, 346);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(492, 231);
             this.label4.TabIndex = 13;
@@ -226,7 +226,7 @@
             this.Controls.Add(this.BookCover2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BookInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BookInfo";
