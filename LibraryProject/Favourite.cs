@@ -108,10 +108,6 @@ namespace LibraryProject
         public void FillPictures()
         {
             
-            if (FavouriteBook1 != null)
-            {
-                FavouriteBook1.Image = Properties.Resources.ENZBook;
-            }
         }
     }
 }
