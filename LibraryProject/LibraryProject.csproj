@@ -74,11 +74,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TimeSpentReading.cs">
+    <Compile Include="BooksReviews.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TimeSpentReading.Designer.cs">
-      <DependentUpon>TimeSpentReading.cs</DependentUpon>
+    <Compile Include="BooksReviews.Designer.cs">
+      <DependentUpon>BooksReviews.cs</DependentUpon>
     </Compile>
     <Compile Include="UserPanel.cs">
       <SubType>Form</SubType>
@@ -109,8 +109,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TimeSpentReading.resx">
-      <DependentUpon>TimeSpentReading.cs</DependentUpon>
+    <EmbeddedResource Include="BooksReviews.resx">
+      <DependentUpon>BooksReviews.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserPanel.resx">
       <DependentUpon>UserPanel.cs</DependentUpon>

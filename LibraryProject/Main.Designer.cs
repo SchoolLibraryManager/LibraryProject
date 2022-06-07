@@ -89,7 +89,7 @@
             this.panel1.Controls.Add(this.FavouriteLabelMain);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(236, 700);
             this.panel1.TabIndex = 0;
@@ -111,7 +111,7 @@
             // 
             this.pictureBox6.Image = global::LibraryProject.Properties.Resources.user;
             this.pictureBox6.Location = new System.Drawing.Point(14, 634);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(32, 34);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +122,7 @@
             // 
             this.pictureBox5.Image = global::LibraryProject.Properties.Resources.clock;
             this.pictureBox5.Location = new System.Drawing.Point(14, 162);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(32, 34);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -133,7 +133,7 @@
             // 
             this.pictureBox4.Image = global::LibraryProject.Properties.Resources.favourite;
             this.pictureBox4.Location = new System.Drawing.Point(14, 219);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(32, 34);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,7 +144,7 @@
             // 
             this.pictureBox3.Image = global::LibraryProject.Properties.Resources.book;
             this.pictureBox3.Location = new System.Drawing.Point(14, 277);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(32, 34);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,7 +155,7 @@
             // 
             this.pictureBox2.Image = global::LibraryProject.Properties.Resources.music_album;
             this.pictureBox2.Location = new System.Drawing.Point(14, 333);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(32, 34);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -166,7 +166,7 @@
             // 
             this.pictureBox1.Image = global::LibraryProject.Properties.Resources.menu;
             this.pictureBox1.Location = new System.Drawing.Point(14, 75);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -217,9 +217,9 @@
             this.TSRLabelMain.Location = new System.Drawing.Point(64, 173);
             this.TSRLabelMain.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TSRLabelMain.Name = "TSRLabelMain";
-            this.TSRLabelMain.Size = new System.Drawing.Size(166, 24);
+            this.TSRLabelMain.Size = new System.Drawing.Size(130, 24);
             this.TSRLabelMain.TabIndex = 1;
-            this.TSRLabelMain.Text = "Time spent reading";
+            this.TSRLabelMain.Text = "Books Reviews";
             this.TSRLabelMain.Click += new System.EventHandler(this.TSRLabelMain_Click);
             // 
             // LibraryLabelMain
@@ -254,7 +254,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Location = new System.Drawing.Point(313, 107);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(795, 130);
             this.panel3.TabIndex = 1;
@@ -280,7 +280,7 @@
             this.LibraryBtn.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LibraryBtn.ForeColor = System.Drawing.Color.Linen;
             this.LibraryBtn.Location = new System.Drawing.Point(944, 581);
-            this.LibraryBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LibraryBtn.Margin = new System.Windows.Forms.Padding(4);
             this.LibraryBtn.Name = "LibraryBtn";
             this.LibraryBtn.Size = new System.Drawing.Size(163, 41);
             this.LibraryBtn.TabIndex = 1;
@@ -297,7 +297,7 @@
             this.Favourite.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Favourite.ForeColor = System.Drawing.Color.Linen;
             this.Favourite.Location = new System.Drawing.Point(313, 308);
-            this.Favourite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Favourite.Margin = new System.Windows.Forms.Padding(4);
             this.Favourite.Name = "Favourite";
             this.Favourite.Size = new System.Drawing.Size(163, 41);
             this.Favourite.TabIndex = 4;
@@ -315,13 +315,13 @@
             this.TSR.ForeColor = System.Drawing.Color.Linen;
             this.TSR.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.TSR.Location = new System.Drawing.Point(524, 581);
-            this.TSR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TSR.Margin = new System.Windows.Forms.Padding(4);
             this.TSR.Name = "TSR";
             this.TSR.Size = new System.Drawing.Size(163, 41);
             this.TSR.TabIndex = 5;
-            this.TSR.Text = "Time spent reading";
+            this.TSR.Text = "Reviews";
             this.TSR.UseVisualStyleBackColor = false;
-            this.TSR.Click += new System.EventHandler(this.TSR_Click);
+            this.TSR.Click += new System.EventHandler(this.Reviews_Click);
             // 
             // WTR
             // 
@@ -332,7 +332,7 @@
             this.WTR.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WTR.ForeColor = System.Drawing.Color.Linen;
             this.WTR.Location = new System.Drawing.Point(738, 308);
-            this.WTR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.WTR.Margin = new System.Windows.Forms.Padding(4);
             this.WTR.Name = "WTR";
             this.WTR.Size = new System.Drawing.Size(163, 41);
             this.WTR.TabIndex = 2;
@@ -352,7 +352,7 @@
             // 
             this.pictureBox10.Image = global::LibraryProject.Properties.Resources.pic2;
             this.pictureBox10.Location = new System.Drawing.Point(524, 345);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(163, 221);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -363,7 +363,7 @@
             // 
             this.pictureBox9.Image = global::LibraryProject.Properties.Resources.pic1;
             this.pictureBox9.Location = new System.Drawing.Point(944, 339);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(163, 228);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -374,7 +374,7 @@
             // 
             this.pictureBox8.Image = global::LibraryProject.Properties.Resources.pic4;
             this.pictureBox8.Location = new System.Drawing.Point(313, 366);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(163, 229);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -385,7 +385,7 @@
             // 
             this.pictureBox7.Image = global::LibraryProject.Properties.Resources.pic3;
             this.pictureBox7.Location = new System.Drawing.Point(738, 366);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(163, 236);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -400,7 +400,7 @@
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CloseButton.ForeColor = System.Drawing.Color.Transparent;
             this.CloseButton.Location = new System.Drawing.Point(1389, 6);
-            this.CloseButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CloseButton.Margin = new System.Windows.Forms.Padding(4);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(35, 35);
             this.CloseButton.TabIndex = 2;
@@ -443,7 +443,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";

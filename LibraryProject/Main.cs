@@ -40,9 +40,9 @@ namespace LibraryProject
             this.Hide();
         }
 
-        private void TSR_Click(object sender, EventArgs e)
+        private void Reviews_Click(object sender, EventArgs e)
         {
-            TimeSpentReading f = new TimeSpentReading();
+            BooksReviews f = new BooksReviews();
             f.Show();
             this.Hide();
         }
@@ -84,7 +84,7 @@ namespace LibraryProject
 
         private void TSRLabelMain_Click(object sender, EventArgs e)
         {
-            TimeSpentReading f = new TimeSpentReading();
+            BooksReviews f = new BooksReviews();
             f.Show();
             this.Hide();
         }
