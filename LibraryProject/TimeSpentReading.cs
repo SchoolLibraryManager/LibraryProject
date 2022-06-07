@@ -66,5 +66,10 @@ namespace LibraryProject
             this.TSRChart.Series["Minutes3"].Points.AddXY("Събота", 120);
             this.TSRChart.Series["Minutes3"].Points.AddXY("Неделя", 100);
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

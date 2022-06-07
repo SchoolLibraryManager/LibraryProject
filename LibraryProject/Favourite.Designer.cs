@@ -34,7 +34,6 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
@@ -88,11 +87,10 @@
             this.panel2.BackColor = System.Drawing.Color.Tan;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Location = new System.Drawing.Point(321, 25);
+            this.panel2.Location = new System.Drawing.Point(256, 46);
             this.panel2.Margin = new System.Windows.Forms.Padding(5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(847, 110);
+            this.panel2.Size = new System.Drawing.Size(986, 110);
             this.panel2.TabIndex = 17;
             // 
             // label5
@@ -100,26 +98,12 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Sitka Small", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(157, 10);
+            this.label5.Location = new System.Drawing.Point(222, 9);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(554, 88);
             this.label5.TabIndex = 1;
             this.label5.Text = "Favourite Books";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImage = global::LibraryProject.Properties.Resources.CloseProgramm;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(869, -12);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 43);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // panel6
             // 
@@ -174,7 +158,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
     }
