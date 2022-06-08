@@ -66,7 +66,7 @@ namespace LibraryProject
         private void RightButton_Click(object sender, EventArgs e)
         {
             Global.PageNumber++;
-            if (Global.PageNumber > 2)
+            if (Global.PageNumber > 4)
             {
                 Global.PageNumber = 0;
             }
@@ -78,9 +78,16 @@ namespace LibraryProject
             Global.PageNumber--;
             if (Global.PageNumber < 0)
             {
-                Global.PageNumber = 3;
+                Global.PageNumber = 4;
             }
             CheckPage();
+        }
+
+        public void ShowInfo()
+        {
+            BookInfo f = new BookInfo();
+            f.Show();
+            this.Hide();
         }
 
         public void CheckPage() 
@@ -130,13 +137,6 @@ namespace LibraryProject
                 default:
                     break;
             }
-        }
-
-        public void ShowInfo()
-        {
-            BookInfo f = new BookInfo();
-            f.Show();
-            this.Hide();
         }
     }
 }

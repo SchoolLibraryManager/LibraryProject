@@ -39,5 +39,18 @@ namespace LibraryProject
         {
             Application.Exit();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Искаш ли да излезнеш от твоя акаунт?", "Log out", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                MessageBox.Show("Продължи да четеш");
+            }
+        }
     }
 }

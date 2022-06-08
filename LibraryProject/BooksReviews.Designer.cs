@@ -38,10 +38,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BookCover2 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BookCover1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BookCover2)).BeginInit();
             this.SuspendLayout();
             // 
             // GoBack
@@ -80,7 +80,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label6);
             this.panel3.Location = new System.Drawing.Point(137, 48);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(867, 100);
             this.panel3.TabIndex = 20;
@@ -150,16 +150,16 @@
             this.label3.TabIndex = 27;
             this.label3.Text = "Book\'s Name";
             // 
-            // pictureBox1
+            // BookCover2
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.InitialImage = global::LibraryProject.Properties.Resources.CloseProgramm;
-            this.pictureBox1.Location = new System.Drawing.Point(137, 438);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(186, 231);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
+            this.BookCover2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.BookCover2.InitialImage = global::LibraryProject.Properties.Resources.CloseProgramm;
+            this.BookCover2.Location = new System.Drawing.Point(137, 438);
+            this.BookCover2.Name = "BookCover2";
+            this.BookCover2.Size = new System.Drawing.Size(186, 231);
+            this.BookCover2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BookCover2.TabIndex = 26;
+            this.BookCover2.TabStop = false;
             // 
             // BooksReviews
             // 
@@ -169,7 +169,7 @@
             this.ClientSize = new System.Drawing.Size(1110, 679);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.BookCover2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BookCover1);
@@ -181,10 +181,11 @@
             this.Name = "BooksReviews";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TimeSpentReading";
+            this.Load += new System.EventHandler(this.BooksReviews_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BookCover1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BookCover2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -201,6 +202,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox BookCover2;
     }
 }

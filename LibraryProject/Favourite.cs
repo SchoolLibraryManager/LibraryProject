@@ -48,7 +48,6 @@ namespace LibraryProject
                 bookNumber = Global.FavouriteBooks[i];
                 GiveInfo(bookNumber);
             }
-            FillPictures();
         }
 
         public void GiveInfo(int bookNumber)
@@ -103,11 +102,6 @@ namespace LibraryProject
                 default:
                     break;
             }
-        }
-
-        public void FillPictures()
-        {
-            
         }
     }
 }
